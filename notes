@@ -1,0 +1,9 @@
+TODO
+
+1. recompute mean and std of dataset
+2. channels of input data and network weight don't match
+    solution: changed the channel of network weight: self.res2_conv in self.shape_stream
+                                                     self.res3_conv in self.shape_stream
+                                                     self.res3_conv in self.shape_stream
+                                                     self.res1 in ShapeStream()
+            
